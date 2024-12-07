@@ -1,0 +1,10 @@
+.cityCard {
+  padding: 20px !important;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+  user-select: none;
+
+  &:hover {
+    box-shadow: var(--shadow-6);
+  }
+}
